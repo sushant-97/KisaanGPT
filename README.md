@@ -4,6 +4,15 @@
 ## Overview
 The RAG (Retrieval-Augmented Generation) pipeline is a system designed for efficient information retrieval and processing. It utilizes advanced embedding and reranking techniques to enhance the quality and relevance of search results. This documentation provides an overview of the pipeline's components and usage.
 
+
+
+## Install required libraries
+```
+pip install -r requirements.txt
+```
+## Dataset Preprocssing
+Download the dataset from google [drive link](https://drive.google.com/drive/folders/18AYK3HDOJBxJxXC_wpabgTnmv4fJUix7?usp=sharing) and preprocess as per preprocess.ipynb file
+
 ## Components
 The pipeline consists of several key components:
 
@@ -35,3 +44,22 @@ To use the ABVE RAG pipeline, follow these steps:
 
 ## Conclusion
 The RAG pipeline is a powerful tool for enhancing search and retrieval tasks with advanced embedding and reranking capabilities. Its Flask-based web application makes it easily accessible for various applications.
+
+
+# Integration with KisaanGPT Web Application
+
+The RAG pipeline API can be effectively integrated into the KisaanGPT web application in the following ways:
+
+### 1. Integration with "Start Asking" Button in `index.html`
+- The "Start Asking" button on the home page (`index.html`) can be linked to the ABVE RAG pipeline API.
+- When a user clicks this button, it can open a dialogue interface where users can type in their queries.
+- The queries can then be sent to the ABVE RAG pipeline API, and the responses displayed to the user.
+
+### 2. Integration in Interactive Sessions in `kisaanGPT.html`
+- The `kisaanGPT.html` page contains interactive elements like "Start New Session" buttons.
+- These sessions can be designed to accept user queries related to agricultural topics.
+- Each query can be processed by the ABVE RAG pipeline API, providing users with relevant and accurate information.
+
+### 3. General Usage in Web Application
+- The ABVE RAG pipeline API can be used as a backend service for the KisaanGPT application, enhancing its capability to provide real-time, accurate responses to user queries.
+- The API's integration can be managed through AJAX calls in the application's JavaScript, ensuring a seamless user experience.
