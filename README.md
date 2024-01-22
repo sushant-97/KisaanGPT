@@ -1,5 +1,5 @@
-
-# RAG Pipeline Documentation
+# KisaanGPT
+### RAG Pipeline Documentation
 
 ## Overview
 The RAG (Retrieval-Augmented Generation) pipeline is a system designed for efficient information retrieval and processing. It utilizes advanced embedding and reranking techniques to enhance the quality and relevance of search results. This documentation provides an overview of the pipeline's components and usage.
