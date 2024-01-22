@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KisaanGPT - Your Agricultural Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="kisaanGPT_styles.css">
+</head>
+<body>
+  <div class="container-fluid d-flex flex-column h-100">
+    <header class="row">
+      <div class="col">
+        <img src="logo-3.png" alt="KisaanGPT Logo" class="logo">
+        <!-- <h1>KisaanGPT</h1> -->
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+          <h1>KisaanGPT</h1>
+        </a>
+      </div>
+    </header>
+
+    <div class="row flex-grow-1">
+      <aside class="col-md-3" id="session-sidebar">
+        <button id="new-session-btn" class="btn btn-primary w-100 mb-3">Start New Conversation</button>
+      </aside>
+
+      <main class="col-md-9">
+        <div id="welcome-message" class="text-center">
+          <!-- The welcome message content will go here -->
+          <img src="logo-2.jpg" style="height: 10%; width: 10%;" alt="Welcome" class="img-fluid">
+          <h2>How can I help you today?</h2>
+          <!-- You can add more content here as needed -->
+        </div>
+        <div id="chat-container" class="d-flex flex-column justify-content-between h-100">
+          <div id="chat-box" class="overflow-auto mb-2">
+            <!-- Chat messages will be added here -->
+          </div>
+          <div id="chat-input-container">
+            <input type="text" id="user-input" class="form-control" placeholder="Ask a question..." autocomplete="off">
+            <button id="send-btn" class="btn btn-success">Send</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="row mt-auto">
+      <div class="col text-center">
+        <p>&copy; 2024 KisaanGPT</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="kisaanGPT_script.js"></script>
+</body>
+</html>
