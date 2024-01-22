@@ -58,8 +58,7 @@ The RAG pipeline API can be effectively integrated into the KisaanGPT web applic
 ### 2. Integration in Interactive Sessions in `kisaanGPT.html`
 - The `kisaanGPT.html` page contains interactive elements like "Start New Session" buttons.
 - These sessions can be designed to accept user queries related to agricultural topics.
-- Each query can be processed by the ABVE RAG pipeline API, providing users with relevant and accurate information.
+- Each query can be processed by the RAG pipeline API, providing users with relevant and accurate information.
 
 ### 3. General Usage in Web Application
 - The RAG pipeline API can be used as a backend service for the KisaanGPT application, enhancing its capability to provide real-time, accurate responses to user queries.
-- The API's integration can be managed through AJAX calls in the application's JavaScript, ensuring a seamless user experience.
