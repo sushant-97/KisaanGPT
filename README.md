@@ -61,5 +61,5 @@ The RAG pipeline API can be effectively integrated into the KisaanGPT web applic
 - Each query can be processed by the ABVE RAG pipeline API, providing users with relevant and accurate information.
 
 ### 3. General Usage in Web Application
-- The ABVE RAG pipeline API can be used as a backend service for the KisaanGPT application, enhancing its capability to provide real-time, accurate responses to user queries.
+- The RAG pipeline API can be used as a backend service for the KisaanGPT application, enhancing its capability to provide real-time, accurate responses to user queries.
 - The API's integration can be managed through AJAX calls in the application's JavaScript, ensuring a seamless user experience.
