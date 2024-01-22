@@ -1,0 +1,7 @@
+lancedb
+FlagEmbedding
+pandas
+datasets
+flask
+requests
+flask_cors
